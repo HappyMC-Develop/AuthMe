@@ -32,7 +32,7 @@ jobs:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "latest-zh"
           prerelease: false
-          title: "MMOItems 自动构建 汉化版 最新版本"
+          title: "AuthMe 自动构建 汉化版 最新版本"
           files: |
             ./target/*.jar
   runtime-test:
